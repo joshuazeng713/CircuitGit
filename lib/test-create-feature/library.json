@@ -3,5 +3,36 @@
   "id": "test-create-feature",
   "name": "测试新建功能",
   "description": "",
-  "cells": []
+  "cells": [
+    {
+      "id": "demo",
+      "name": "demo",
+      "description": "",
+      "directory": "lib/test-create-feature/demo",
+      "kind": "circuit",
+      "readme": "lib/test-create-feature/demo/README.md",
+      "project_id": null,
+      "requires_external_models": false,
+      "views": [
+        {
+          "id": "schematic",
+          "label": "Schematic",
+          "kind": "rnl",
+          "entry": "lib/test-create-feature/demo/schematic/demo.scs",
+          "files": [
+            "lib/test-create-feature/demo/schematic/demo.scs"
+          ]
+        },
+        {
+          "id": "docs",
+          "label": "Documentation",
+          "kind": "markdown",
+          "entry": "lib/test-create-feature/demo/README.md",
+          "files": [
+            "lib/test-create-feature/demo/README.md"
+          ]
+        }
+      ]
+    }
+  ]
 }

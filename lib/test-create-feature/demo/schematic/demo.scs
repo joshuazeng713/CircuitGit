@@ -1,0 +1,11 @@
+simulator lang=spectre
+subckt demo IN OUT VDD VSS
+    R0 (IN OUT) resistor r=1k
+// @RNL(author="circuitgit-starter") {
+//   #"R0" @PLACE(0, 0) => @ORIENT("R0");
+//   %in = @PLACE(-18, 0);
+//   %out = @PLACE(18, 0);
+//   &"IN" @WIRE(mode="straight") {%in #"R0":1};
+//   &"OUT" @WIRE(mode="straight") {#"R0":2 %out};
+// }
+ends demo
