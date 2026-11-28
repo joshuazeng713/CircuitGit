@@ -1,0 +1,7 @@
+{
+  "schema": "circuitgit.library.v1",
+  "id": "test-create-feature",
+  "name": "测试新建功能",
+  "description": "",
+  "cells": []
+}

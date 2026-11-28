@@ -24,6 +24,12 @@
       "name": "基础电路",
       "description": "RC reference and an independent two-device inverter starting point.",
       "manifest": "lib/basics/library.json"
+    },
+    {
+      "id": "test-create-feature",
+      "name": "测试新建功能",
+      "description": "",
+      "manifest": "lib/test-create-feature/library.json"
     }
   ]
 }
